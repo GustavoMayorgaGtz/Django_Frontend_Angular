@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/*font-family: 'PT Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+/*font-family: 'Mukta', sans-serif;*/
+
+.Title{
+  font-family: 'Mukta', sans-serif;
+  color:black;
+  font-size: calc(14px + 0.99vw);
+  font-weight: 600;
+}
+.resultados{
+    font-family: 'Mukta', sans-serif;
+    color:rgb(50, 139, 14);
+    font-size: calc(10px + 0.8vw);
+    font-weight: 600;   
+}
+.Subtitle{
+    font-family: 'Mukta', sans-serif;
+    color:rgb(26, 36, 112);
+    font-size: calc(12px + .85vw);
+    font-weight: 600;
+
+}
+.container_buttons{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    min-width: 400px;
+}
+.container_resultados
+{
+    display: block;
+}
+input{
+    width:50%;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    margin-left: 30px;
+}

@@ -1,0 +1,18 @@
+<div class="container_primario">
+     <div class="container_title">
+        <span class="Title">Probar Metodos</span>
+     </div>
+     <div class="container_buttons">
+        <form novalidate [formGroup]="form">
+            <input type="button" value="GET" (click)="Get()">
+            <input type="text" placeholder="Ingresa nombre" name="name" id="name" formControlName="name">
+            <input type="button" value="POST" (click)="Post()">
+        </form>
+        
+     </div>
+     <div class="container_resultados">
+        <span class="Subtitle">resultados</span>
+        <br>
+       <span class="resultados">{{resultados}}</span>
+     </div>
+</div>
